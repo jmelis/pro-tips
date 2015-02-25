@@ -113,24 +113,34 @@ activate :directory_indexes
 ###
 
 # set site URL
-set :site_url, 'http://blog.example.com'
+set :site_url, 'http://jmelis.github.io/pro-tips'
 # set site title
-set :site_title, 'Drops Template'
+set :site_title, '*nix Pro-tips'
 # set site description (only used for meta description for the moment)
 set :site_description, 'Site Description'
 # set site author name
-set :site_author, 'Site Author'
+set :site_author, 'Jaime Melis'
 # set site author profile information
-set :site_author_profile, 'Lorem ipsum dolor sit amet, cu facilis indoctum interpretaris has. Ius ea quod euismod fierent, per in legere gubergren accommodare, ut labitur partiendo urbanitas duo. Tamquam inciderint at sed. Per at nibh graecis intellegebat. Probo brute ancillae sit ex, tota recusabo disputando usu et.'
+set :site_author_profile, 'Developer and Sys-admin'
 # set site author profile image (should be in images_dir)
 set :site_author_image, 'profile.png'
 # when true, the page and site titles will be reversed (page title | site title)
 set :reverse_title, true
 # twitter/facebook/github/linkedin links in author page (otherwise set nil)
 set :social_links,
-    twitter: 'https://twitter.com',
-    facebook: 'https://facebook.com',
-    github: 'https://github.com/5t111111',
-    linkedin: 'https://linkedin.com'
+    twitter: 'https://twitter.com/j_melis',
+    github: 'https://github.com/jmelis'
 # set Google Analytics account, like "XX-12345678-9"
 # set :google_analytics_account, 'XX-12345678-9'
+
+
+# Middleman deploy
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  # Optional Settings
+  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
+  # deploy.branch   = 'custom-branch' # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
+end
