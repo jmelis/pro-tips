@@ -13,8 +13,8 @@ main {
 
     .article-title {
       text-align: left;
-      margin-top: 5.0rem;
-      margin-bottom: 5.0rem;
+      margin-top: 2.0rem;
+      margin-bottom: 2.0rem;
     }
 
     .tag-list {
@@ -54,8 +54,8 @@ main {
     .posted-date-wrapper {
       text-align: left;
       color: $gentle-gray;
-      margin-top: 40px;
-      margin-bottom: 25px;
+      margin-top: 0px;
+      margin-bottom: 10px;
       .posted-date {
         padding-left: .4em;
       }
@@ -74,12 +74,12 @@ main {
     }
 
     .article-separator {
-      margin-bottom: 100px;
+      margin-bottom: 10px;
     }
 
     .article-header-separator {
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     img {
