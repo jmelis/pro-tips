@@ -115,7 +115,7 @@ activate :directory_indexes
 # set site URL
 set :site_url, 'http://jmelis.github.io/pro-tips'
 # set site title
-set :site_title, '*nix Pro-tips'
+set :site_title, '#pro-tips'
 # set site description (only used for meta description for the moment)
 set :site_description, 'Site Description'
 # set site author name
