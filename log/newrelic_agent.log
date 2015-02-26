@@ -1,0 +1,13 @@
+# Logfile created on 2015-02-25 17:55:13 +0100 by logger.rb/47272
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Starting the New Relic agent in "development" environment.
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/25/15 17:55:13 +0100 rama (8351)] WARN : No configuration file found. Working directory = /home/jmelis/borrar/protips/source
+[02/25/15 17:55:13 +0100 rama (8351)] WARN : Looked in these locations (based on defaults): /home/jmelis/borrar/protips/source/config/newrelic.yml, /home/jmelis/borrar/protips/source/newrelic.yml, /home/jmelis/borrar/protips/source/config/newrelic.yml, /home/jmelis/borrar/protips/source/newrelic.yml, /home/jmelis/.newrelic/newrelic.yml, /home/jmelis/newrelic.yml
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Environment: development
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : No known dispatcher detected.
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Application: development
+[02/25/15 17:55:13 +0100 rama (8351)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Installing Net instrumentation
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Installing deferred Rack instrumentation
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Installing Rack::Builder middleware instrumentation
+[02/25/15 17:55:13 +0100 rama (8351)] INFO : Finished instrumentation

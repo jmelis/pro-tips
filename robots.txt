@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.example.com/sitemap.xml.gz
+Sitemap: http://jmelis.github.io/pro-tips/sitemap.xml.gz
