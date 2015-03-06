@@ -99,3 +99,19 @@
 [03/06/15 10:47:01 +0100 rama (7832)] INFO : Installing deferred Rack instrumentation
 [03/06/15 10:47:01 +0100 rama (7832)] INFO : Installing Rack::Builder middleware instrumentation
 [03/06/15 10:47:01 +0100 rama (7832)] INFO : Finished instrumentation
+[03/06/15 10:47:03 +0100 rama (7832)] INFO : Doing deferred dependency-detection before Rack startup
+[03/06/15 10:47:04 +0100 rama (7832)] ERROR : Invalid license key, please contact support@newrelic.com
+[03/06/15 10:47:04 +0100 rama (7832)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[03/06/15 10:47:06 +0100 rama (7832)] INFO : Starting Agent shutdown
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Starting the New Relic agent in "development" environment.
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[03/06/15 10:47:09 +0100 rama (7863)] WARN : No configuration file found. Working directory = /home/jmelis/git/pro-tips/source
+[03/06/15 10:47:09 +0100 rama (7863)] WARN : Looked in these locations (based on defaults): /home/jmelis/git/pro-tips/source/config/newrelic.yml, /home/jmelis/git/pro-tips/source/newrelic.yml, /home/jmelis/git/pro-tips/source/config/newrelic.yml, /home/jmelis/git/pro-tips/source/newrelic.yml, /home/jmelis/.newrelic/newrelic.yml, /home/jmelis/newrelic.yml
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Environment: development
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : No known dispatcher detected.
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Application: development
+[03/06/15 10:47:09 +0100 rama (7863)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Installing Net instrumentation
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Installing deferred Rack instrumentation
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Installing Rack::Builder middleware instrumentation
+[03/06/15 10:47:09 +0100 rama (7863)] INFO : Finished instrumentation

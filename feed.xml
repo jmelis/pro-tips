@@ -10,8 +10,8 @@
   </author>
   <entry>
     <title>Encrypt and decrypt files</title>
-    <link rel="alternate" href="http://jmelis.github.io/pro-tips/2015/03/06/encrypt-and-decrypt-files/"/>
-    <id>http://jmelis.github.io/pro-tips/2015/03/06/encrypt-and-decrypt-files/</id>
+    <link rel="alternate" href="http://jmelis.github.io/2015/03/06/encrypt-and-decrypt-files/"/>
+    <id>http://jmelis.github.io/2015/03/06/encrypt-and-decrypt-files/</id>
     <published>2015-03-06T10:08:00+01:00</published>
     <updated>2015-03-06T10:41:38+01:00</updated>
     <summary type="html">&lt;p&gt;Encrypt:&lt;/p&gt;
@@ -33,8 +33,8 @@
   </entry>
   <entry>
     <title>Tranfer files from the shell</title>
-    <link rel="alternate" href="http://jmelis.github.io/pro-tips/2015/02/25/tranfer-files-from-the-shell/"/>
-    <id>http://jmelis.github.io/pro-tips/2015/02/25/tranfer-files-from-the-shell/</id>
+    <link rel="alternate" href="http://jmelis.github.io/2015/02/25/tranfer-files-from-the-shell/"/>
+    <id>http://jmelis.github.io/2015/02/25/tranfer-files-from-the-shell/</id>
     <published>2015-02-25T18:05:00+01:00</published>
     <updated>2015-03-06T10:41:34+01:00</updated>
     <summary type="html">&lt;p&gt;Use &lt;a href="https://transfer.sh/"&gt;transfer.sh&lt;/a&gt; to upload files to an online service.&lt;/p&gt;
