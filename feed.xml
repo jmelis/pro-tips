@@ -4,29 +4,54 @@
   <id>http://jmelis.github.io/pro-tips</id>
   <link href="http://jmelis.github.io/pro-tips"/>
   <link href="http://jmelis.github.io/feed.xml" rel="self"/>
-  <updated>2015-02-25T18:05:00+01:00</updated>
+  <updated>2015-03-06T10:08:00+01:00</updated>
   <author>
     <name>Jaime Melis</name>
   </author>
   <entry>
+    <title>Encrypt and decrypt files</title>
+    <link rel="alternate" href="http://jmelis.github.io/pro-tips/2015/03/06/encrypt-and-decrypt-files/"/>
+    <id>http://jmelis.github.io/pro-tips/2015/03/06/encrypt-and-decrypt-files/</id>
+    <published>2015-03-06T10:08:00+01:00</published>
+    <updated>2015-03-06T10:41:38+01:00</updated>
+    <summary type="html">&lt;p&gt;Encrypt:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;$ gpg -c filename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Decrypt:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;gpg filename.gpg
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    <content type="html">&lt;p&gt;Encrypt:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;$ gpg -c filename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Decrypt:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;gpg filename.gpg
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
     <title>Tranfer files from the shell</title>
-    <link rel="alternate" href="http://jmelis.github.io/2015/02/25/tranfer-files-from-the-shell/"/>
-    <id>http://jmelis.github.io/2015/02/25/tranfer-files-from-the-shell/</id>
+    <link rel="alternate" href="http://jmelis.github.io/pro-tips/2015/02/25/tranfer-files-from-the-shell/"/>
+    <id>http://jmelis.github.io/pro-tips/2015/02/25/tranfer-files-from-the-shell/</id>
     <published>2015-02-25T18:05:00+01:00</published>
-    <updated>2015-02-26T09:56:19+01:00</updated>
+    <updated>2015-03-06T10:41:34+01:00</updated>
     <summary type="html">&lt;p&gt;Use &lt;a href="https://transfer.sh/"&gt;transfer.sh&lt;/a&gt; to upload files to an online service.&lt;/p&gt;
-&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# Upload using cURL &lt;/span&gt;
-&lt;span class="gp"&gt;$ &lt;/span&gt;curl --upload-file ./hello.txt https://transfer.sh/hello.txt https://transfer.sh/66nb8/hello.txt 
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# Upload using cURL&lt;/span&gt;
+&lt;span class="gp"&gt;$ &lt;/span&gt;curl --upload-file ./hello.txt https://transfer.sh/hello.txt
+https://transfer.sh/66nb8/hello.txt
 
-&lt;span class="c"&gt;# Using the alias &lt;/span&gt;
-&lt;span class="gp"&gt;$ &lt;/span&gt;transfer hello.txt 
-&lt;span class="c"&gt;##############################...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
+&lt;span class="c"&gt;# Using the alias&lt;/span&gt;
+&lt;span class="gp"&gt;$ &lt;/span&gt;transfer hello.txt
+&lt;span class="c"&gt;##################################...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
     <content type="html">&lt;p&gt;Use &lt;a href="https://transfer.sh/"&gt;transfer.sh&lt;/a&gt; to upload files to an online service.&lt;/p&gt;
-&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# Upload using cURL &lt;/span&gt;
-&lt;span class="gp"&gt;$ &lt;/span&gt;curl --upload-file ./hello.txt https://transfer.sh/hello.txt https://transfer.sh/66nb8/hello.txt 
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# Upload using cURL&lt;/span&gt;
+&lt;span class="gp"&gt;$ &lt;/span&gt;curl --upload-file ./hello.txt https://transfer.sh/hello.txt
+https://transfer.sh/66nb8/hello.txt
 
-&lt;span class="c"&gt;# Using the alias &lt;/span&gt;
-&lt;span class="gp"&gt;$ &lt;/span&gt;transfer hello.txt 
+&lt;span class="c"&gt;# Using the alias&lt;/span&gt;
+&lt;span class="gp"&gt;$ &lt;/span&gt;transfer hello.txt
 &lt;span class="c"&gt;##################################################### 100.0%&lt;/span&gt;
 https://transfer.sh/eibhM/hello.txt
 &lt;/code&gt;&lt;/pre&gt;
